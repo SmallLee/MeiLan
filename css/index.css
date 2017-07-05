@@ -47,6 +47,8 @@ a{
 .logo_right{
 	width: 530px;
 	height: 42px;
+	border:1px solid #C9C9C9;
+	margin-top: 29px;
 }
 .logo_r_content{
 	margin: 5px 5px 4px;
@@ -62,6 +64,30 @@ a{
 	width: 99px;
 	height: 30px;
 	background-color: #2f70d0;
+	color: white;
+}
+.nav{
+	width: 970px;
+	height: 25px;
+	margin: 0 auto;
+	border-bottom: 2px solid #0266a3;
+}
+.nav li{
+	float: left;
+	padding: 0px 15px;
+	line-height: 25px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.nav li a{
+	color: #0266a3;
+}
+/*鼠标悬浮时改变背景颜色和字体颜色*/
+li:hover{
+	background-color: #0266A3;
+	color: white;
+}
+li:hover a{
 	color: white;
 }
 /*
