@@ -90,6 +90,43 @@ li:hover{
 li:hover a{
 	color: white;
 }
+.banner{
+	width: 970px;
+	height: 210px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.subnav{
+	width: 200px;
+	height: inherit;
+	background: red;
+}
+.ad{
+	width: 520px;
+	background: yellow;
+	height: inherit;
+	margin-left: 11px;
+}
+.message{
+	width: 230px;
+	height: inherit;
+	background: blue;
+}
+.subnav h2{
+	background: #0266A3;
+	color: white;
+	font-size: 14px;
+	height: 30px;
+	line-height: 30px;
+	font-weight: bold;
+	padding-left: 20px;
+}
+.subnav s{
+	display: inline-block;
+	width: 15px;
+	height: 13px;
+	background: url(../img/sprite.png);
+}
 /*
  a>b：子元素选择器
  a b:后代选择器
