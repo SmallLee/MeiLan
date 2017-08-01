@@ -83,11 +83,11 @@ a{
 	color: #0266a3;
 }
 /*鼠标悬浮时改变背景颜色和字体颜色*/
-li:hover{
+.nav li:hover{
 	background-color: #0266A3;
 	color: white;
 }
-li:hover a{
+.nav li:hover a{
 	color: white;
 }
 .banner{
@@ -99,7 +99,6 @@ li:hover a{
 .subnav{
 	width: 200px;
 	height: inherit;
-	background: red;
 }
 .ad{
 	width: 520px;
@@ -110,7 +109,6 @@ li:hover a{
 .message{
 	width: 230px;
 	height: inherit;
-	background: blue;
 }
 .subnav h2{
 	background: #0266A3;
@@ -125,7 +123,194 @@ li:hover a{
 	display: inline-block;
 	width: 15px;
 	height: 13px;
-	background: url(../img/sprite.png);
+	background: url(../img/sprite.png) -225px 0;
+	vertical-align: middle;
+}
+.subnav ul{
+	background: #ebf0f6;
+	height: 180px;
+}
+.subnav li{
+	font-size: 15px;
+	padding-top: 11px;
+	margin-left: 9px;
+}
+.subnav li a{
+	margin-left: 15px;
+}
+.message-top{
+	height: 95px;
+	border: 1px solid #dddddd;
+	background: #f7faff;
+	margin-bottom: 23px;
+}
+.message-bottom{
+	height: 92px;
+	background: #f7f7f7;
+}
+.message-top s{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: url(../img/sprite.png) -250px 0;
+	margin: 20px 10px 0 10px
+}
+.message-top .top_title{
+	font-weight: bold;
+	padding: 7px 0 0 18px;
+}
+.message-top .cheap{
+	margin-top: 25px;
+}
+.message-bottom .findMessage{
+	text-align: center;
+	font-size: 14px;
+	padding-top: 14px;
+}
+.message-bottom .phone{
+	text-align: center;
+	color: #3f9ce0;
+	margin-top: 10px;
+}
+.message-bottom .phone s{
+	display: inline-block;
+	width: 14px;
+	height: 17px;
+	background: url(../img/sprite.png) -225px -30px;
+	vertical-align: middle;
+}
+.message-bottom .call_phone{
+	width: 81px;
+	height: 23px;
+	background: url(../img/sprite.png) -295px 0;
+	margin: 9px 0 0 79px;
+}
+.material{
+	width: 950px;
+	margin: 0 auto;
+	height:34px;
+	border-top: 2px solid #c3d7e4;
+	margin-top: 14px;
+	background: #ecf1f7;
+	line-height: 34px;
+	font-weight: bold;
+	padding-left: 20px;
+}
+.detail{
+	width: 970px;
+	height: 345px;
+	margin: 0 auto;
+	margin-top: 12px;
+}
+.detail_left{
+	width: 738px;
+	height: inherit;
+	border: 1px solid #3F9CE0;
+}
+.detail_right{
+	width: 228px;
+	height: inherit;
+	border: 1px solid blue;
+}
+.detail_left_top{
+	height: 155px;
+	width: 712px;
+
+	padding: 17px 0 0 26px;
+}
+.top_left{
+	width: 350px;
+	height: 146px;
+}
+.top_left .buy{
+	width: 99px;
+	height: 143px;
+}
+.top_left .explain{
+	width: 251px;
+	height: 143px;
+}
+.buy .img{
+	border:  1px solid #cacaca;
+	height: 100px;
+}
+.buy .img s{
+	display: inline-block;
+	width: 90px;
+	height: 62px;
+	background: url(../img/sprite.png) 0 -70px;
+	margin: 10px 4px 0;
+}
+.buy .btn{
+	width: 99px;
+	height: 26px;
+	background-color: #0a84e3;
+	color: white;
+	margin-top: 15px;
+}
+.good_wife{
+	font-size: 14px;
+	margin: 10px 0 0 10px;
+}
+.explain .auto{
+	color: #863e01;
+	font-size: 12px;
+	margin: 13px 0 0 15px;
+}
+.explain .price span{
+	color: red;
+}
+.explain .price{
+	margin: 13px 0 0 11px;
+}
+.explain .buyed{
+	font-size: 14px;
+	margin: 28px 0 0 10px;
+}
+.detail_middle_line{
+	margin: 0 4px;
+	border-top: 1px solid #cccccc;
+}
+.detail_right h2{
+	height: 28px;
+	line-height: 28px;
+	padding-left: 15px;
+	border-bottom: 1px solid grey;
+}
+.detail_right ul{
+	padding-top: 11px;
+}
+.detail_right ul li{
+	line-height: 23px;
+	padding-left: 26px;
+}
+.friendly_link{
+	width: 970px;
+	height: 80px;
+	margin: 0 auto;
+	margin-top: 11px;
+	border-top: 1px solid #3F9CE0;
+	border-bottom: 3px solid #0a7ec3;
+}
+.friendly_link .link_top{
+	color: #666666;
+	margin-top: 30px;
+	background: white;
+}
+.friendly_link .link_bottom{
+	color: #666666;
+	margin-top: 10px;
+	margin-left: 61px;
+}
+.about_us{
+	height: 91px;
+	margin: 0 auto;
+	width: 970px;
+	padding-top: 15px;
+}
+.about_us p{
+	margin-bottom: 10px;
+	text-align: center;
 }
 /*
  a>b：子元素选择器
